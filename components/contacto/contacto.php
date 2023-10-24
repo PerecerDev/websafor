@@ -17,7 +17,7 @@ defined('ABSPATH') OR die;
         
         <div class="border-t border-gray-300 mt-10 pt-10">
             <p class="text-xl font-medium mb-6">O si lo prefieres, déjanos tus datos y te contactaremos</p>
-            <?php echo do_shortcode('[contact-form-7 id="bb028cd" title="Contact"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="467209b" title="Contact Form"]'); ?>
         </div>
     </div>
   </section>

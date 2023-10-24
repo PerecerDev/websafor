@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('sendEmailButton').addEventListener('click', function() {
                 const email = document.getElementById('emailInput').value;
                 // Aquí agregar la lógica para enviar por email
-                document.querySelector('#d4ec143').submit(); // Reemplaza 'ID_DEL_FORMULARIO' con el ID real del formulario de Contact Form 7
+                document.querySelector('#5b42666').submit(); // Reemplaza 'ID_DEL_FORMULARIO' con el ID real del formulario de Contact Form 7
             });
             
             // Funcionalidad de envío por WhatsApp
