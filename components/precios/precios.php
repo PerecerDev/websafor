@@ -11,7 +11,7 @@ defined('ABSPATH') OR die;
         </div>
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             <!-- Precio para Landing Page -->
-            <div class="flex flex-col p-2 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
+            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold">Web pagína única</h3>
                 <p class="font-ligh sm:text-lg">Tus servicios se muestran como un listado en la pagina principal</p>
                 <div class="flex justify-center items-baseline my-8">
@@ -44,7 +44,7 @@ defined('ABSPATH') OR die;
                 <a id="precioLan" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-light rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
             </div>
             <!-- Precio para Servicios -->
-            <div class="flex flex-col p-4 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
+            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold">Web de Servicios</h3>
                 <p class="font-ligh sm:text-lg">Tus servicios tienen su propia pagina para poder ser detallados</p>
                 <div class="flex justify-center items-baseline my-8">
@@ -77,7 +77,7 @@ defined('ABSPATH') OR die;
                 <a id="precioSer" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-light rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
             </div>
             <!-- Precio para E-commerce -->
-            <div class="flex flex-col p-4 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
+            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold">Tienda Online</h3>
                 <p class="font-ligh sm:text-lg">Vende tus productos a través de la web. Cada producto tiene su propia pagina</p>
                 <div class="flex justify-center items-baseline my-8">
@@ -119,12 +119,12 @@ defined('ABSPATH') OR die;
             </div>
 
             <!-- Precio componentes extra -->
-            <div class="flex flex-col p-4 mx-auto max-w-lg text-center text-teal-950 bg-white ring-1 ring-orange-200 rounded-md shadow xl:p-8">
+            <div class="flex flex-col p-4 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-teal-50 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold border-b pb-2">¿Necesitas más funcionalidades?</h3>
                 <p class="font-light mb-6 sm:text-lg">Añade los componentes que necesites para tu web:</p>
                 
                 <!-- Reservas y Citas -->
-                <div class="mb-4 p-2 bg-teal-50 rounded-md">
+                <div class="mb-4 rounded-md">
                     <div class="mb-2 text-3xl text-teal-900">
                         <i class="fas fa-calendar-check"></i>
                     </div>
@@ -142,7 +142,7 @@ defined('ABSPATH') OR die;
                 </div>
 
                 <!-- Contenido y Multimedia -->
-                <div class="mb-4 p-2 bg-teal-50 rounded-md">
+                <div class="mb-4 rounded-md">
                     <div class="mb-2 text-3xl text-teal-900">
                         <i class="fas fa-images"></i>
                     </div>
@@ -164,7 +164,7 @@ defined('ABSPATH') OR die;
                 </div>
 
                 <!-- Comunicación y Feedback -->
-                <div class="mb-4 p-2 bg-teal-50 rounded-md">
+                <div class="mb-4 rounded-md">
                     <div class="mb-2 text-3xl text-teal-900">
                         <i class="fas fa-comments"></i>
                     </div>
@@ -190,7 +190,7 @@ defined('ABSPATH') OR die;
                 </div>
 
                 <!-- Funcionalidades Avanzadas -->
-                <div class="mb-4 p-2 bg-teal-50 rounded-md">
+                <div class="mb-4 rounded-md">
                     <div class="mb-2 text-3xl text-teal-900">
                         <i class="fas fa-cogs"></i>
                     </div>
