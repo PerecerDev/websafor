@@ -59,19 +59,23 @@ defined('ABSPATH') OR die;
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Descripción del negocio</span>
+                        <span>Página de 'Sobre nosotros'</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Sección de Testimonios</span>
+                        <span>Página de Testimonios</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Información de contacto</span>
+                        <span>Página de contacto</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                         <span>Formulario de contacto</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>CPuedes añadir funcionalidades extra</span>
                     </li>
                 </ul>
                 <a id="precioSer" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-light rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
@@ -132,11 +136,11 @@ defined('ABSPATH') OR die;
                     <ul role="list" class="mb-4 space-y-2 text-left">
                         <li class="flex justify-between items-center">
                             <span>Sistema de citas por email o whatsapp</span>
-                            <span class="font-bold whitespace-nowrap">250 €</span>
+                            <span class="font-bold whitespace-nowrap">190 €</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span>Sistema de citas con calendario</span>
-                            <span class="font-bold whitespace-nowrap">450 €</span>
+                            <span class="font-bold whitespace-nowrap">390 €</span>
                         </li>
                     </ul>
                 </div>
@@ -150,15 +154,15 @@ defined('ABSPATH') OR die;
                     <ul role="list" class="mb-4 space-y-2 text-left">
                         <li class="flex justify-between items-center">
                             <span>Filtros para productos o servicios</span>
-                            <span class="font-bold whitespace-nowrap">420 €</span>
+                            <span class="font-bold whitespace-nowrap">290 €</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span>Sección de noticias (blog)</span>
-                            <span class="font-bold whitespace-nowrap">520 €</span>
+                            <span class="font-bold whitespace-nowrap">390 €</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span>Galería</span>
-                            <span class="font-bold whitespace-nowrap">510 €</span>
+                            <span class="font-bold whitespace-nowrap">290 €</span>
                         </li>
                     </ul>
                 </div>
@@ -172,19 +176,19 @@ defined('ABSPATH') OR die;
                     <ul role="list" class="mb-4 space-y-2 text-left">
                         <li class="flex justify-between items-center">
                             <span>Integración con redes sociales</span>
-                            <span class="font-bold whitespace-nowrap">170 €</span>
+                            <span class="font-bold whitespace-nowrap">140 €</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span>Newsletter</span>
-                            <span class="font-bold whitespace-nowrap">210 €</span>
+                            <span class="font-bold whitespace-nowrap">140 €</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span>Comentarios y valoraciones</span>
-                            <span class="font-bold whitespace-nowrap">410 €</span>
+                            <span class="font-bold whitespace-nowrap">290 €</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span>Chat en directo</span>
-                            <span class="font-bold whitespace-nowrap">510 €</span>
+                            <span class="font-bold whitespace-nowrap">390 €</span>
                         </li>
                     </ul>
                 </div>
@@ -198,11 +202,11 @@ defined('ABSPATH') OR die;
                     <ul role="list" class="mb-4 space-y-2 text-left">
                         <li class="flex justify-between items-center">
                             <span>Acceso para usuarios</span>
-                            <span class="font-bold whitespace-nowrap">520 €</span>
+                            <span class="font-bold whitespace-nowrap">490 €</span>
                         </li>
                         <li class="flex justify-between items-center">
                             <span>Multilenguaje</span>
-                            <span class="font-bold whitespace-nowrap">530 €</span>
+                            <span class="font-bold whitespace-nowrap">590 €</span>
                         </li>
                     </ul>
                 </div>

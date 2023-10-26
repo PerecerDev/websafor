@@ -24,8 +24,8 @@ const webPrice = [
                 label: "Opciones de Reservas y Citas",
                 description: "Seleccione las opciones de reservas y citas que desea integrar en su sitio web.",
                 options: [
-                    { label: "Sistema de citas por email o whatsapp", price: 250, tip: "Permite a los visitantes reservar citas por email o whatsapp." },
-                    { label: "Sistema de citas con calendario", price: 450, tip: "Permite a los visitantes reservar citas a través de un calendario interactivo." }
+                    { label: "Sistema de citas por email o whatsapp", price: 190, tip: "Permite a los visitantes reservar citas por email o whatsapp." },
+                    { label: "Sistema de citas con calendario", price: 390, tip: "Permite a los visitantes reservar citas a través de un calendario interactivo." }
                 ],
                 name: "bookingOptions"
             }
@@ -39,9 +39,9 @@ const webPrice = [
                 label: "Opciones de Contenido y Multimedia",
                 description: "Seleccione las características de contenido y multimedia que desea para su sitio web.",
                 options: [
-                    { label: "Filtros para productos o servicios", price: 420, tip: "Facilita la búsqueda de productos o servicios específicos." },
-                    { label: "Sección de noticias (blog)", price: 520, tip: "Comparta noticias, artículos o actualizaciones con sus visitantes." },
-                    { label: "Galería", price: 510, tip: "Muestre imágenes o proyectos en un formato visual atractivo." }
+                    { label: "Filtros para productos o servicios", price: 290, tip: "Facilita la búsqueda de productos o servicios específicos." },
+                    { label: "Sección de noticias (blog)", price: 390, tip: "Comparta noticias, artículos o actualizaciones con sus visitantes." },
+                    { label: "Galería", price: 290, tip: "Muestre imágenes o proyectos en un formato visual atractivo." }
                 ],
                 name: "contentOptions"
             }
@@ -55,10 +55,10 @@ const webPrice = [
                 label: "Opciones de Comunicación y Feedback",
                 description: "Seleccione las opciones de comunicación y feedback que desea para su sitio web.",
                 options: [
-                    { label: "Integración con redes sociales", price: 170, tip: "Conecte su sitio web con sus perfiles de redes sociales." },
-                    { label: "Newsletter", price: 210, tip: "Recopile correos electrónicos para enviar boletines o actualizaciones." },
-                    { label: "Comentarios y valoraciones", price: 410, tip: "Permite a los visitantes dejar comentarios o valoraciones." },
-                    { label: "Chat en directo", price: 510, tip: "Comunicación en tiempo real con los visitantes del sitio web." }
+                    { label: "Integración con redes sociales", price: 140, tip: "Conecte su sitio web con sus perfiles de redes sociales." },
+                    { label: "Newsletter", price: 140, tip: "Recopile correos electrónicos para enviar boletines o actualizaciones." },
+                    { label: "Comentarios y valoraciones", price: 290, tip: "Permite a los visitantes dejar comentarios o valoraciones." },
+                    { label: "Chat en directo", price: 390, tip: "Comunicación en tiempo real con los visitantes del sitio web." }
                 ],
                 name: "communicationOptions"
             }
@@ -72,8 +72,8 @@ const webPrice = [
                 label: "Opciones Avanzadas",
                 description: "Seleccione las funcionalidades avanzadas que desea para su sitio web.",
                 options: [
-                    { label: "Acceso para usuarios", price: 520, tip: "Un área exclusiva para miembros o usuarios registrados." },
-                    { label: "Multilenguaje", price: 530, tip: "Ofrezca su contenido en varios idiomas." }
+                    { label: "Acceso para usuarios", price: 490, tip: "Un área exclusiva para miembros o usuarios registrados." },
+                    { label: "Multilenguaje", price: 590, tip: "Ofrezca su contenido en varios idiomas." }
                 ],
                 name: "advancedOptions"
             }

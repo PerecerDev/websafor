@@ -12,6 +12,17 @@ defined('ABSPATH') OR die;
 		<meta name="description" content="Astro description" />
 		<title>WebSafor - Tu propia web</title>
 		<?php wp_head(); ?>
+		<!-- Google tag (gtag.js) -->
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4KGJ3YFNN"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-Y4KGJ3YFNN');
+		</script>
+		
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
