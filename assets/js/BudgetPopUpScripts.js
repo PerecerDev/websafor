@@ -132,13 +132,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     let questionLabel = findQuestionLabelByKey(key);
                     answerList += `<div class="mb-4">`;
                     answerList += `<p>${questionLabel}:</p>`;
-                    summarList += `· ${questionLabel}`;
+                    summarList += `· ${questionLabel} \r\n`;
                     if (Array.isArray(answers[key])) {
                         answerList += `<p class="font-bold ml-4">${answers[key].join(', ')}</p>`;
-                        summarList += `- ${answers[key].join(', ')}`;
+                        summarList += `- ${answers[key].join(', ')} \r\n`;
                     } else {
                         answerList += `<p class="font-bold ml-4">${answers[key]}</p>`;
-                        summarList += `- ${answers[key]}`;
+                        summarList += `- ${answers[key]} \r\n`;
                     }
                     answerList += `</div>`;
                 }
@@ -151,13 +151,12 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('finalPrice').textContent = `Precio estimado: ${price}€`;
 
             // Suponiendo que ya has generado estos valores con tu código
-            let generatedSummary = summarList; // o como generes el resumen
+            let generatedSummary = encodeURIComponent(summarList); // o como generes el resumen
             let generatedFinalPrice = `Precio estimado: ${price}€`; // o como generes el precio
 
             // Actualiza los campos ocultos en el formulario
             document.querySelector('[name="summary"]').value = generatedSummary;
 
-            document.querySelector('[name="summary"]').innerHTML = answerList;
             document.querySelector('[name="finalPrice"]').value = generatedFinalPrice;
 
             document.getElementById('finalPrice').classList.add('block','mt-8');
