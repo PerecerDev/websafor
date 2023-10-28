@@ -156,6 +156,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Actualiza los campos ocultos en el formulario
             document.querySelector('[name="summary"]').value = generatedSummary;
+
+            document.querySelector('[name="summary"]').innerHTML = answerList;
             document.querySelector('[name="finalPrice"]').value = generatedFinalPrice;
 
             document.getElementById('finalPrice').classList.add('block','mt-8');
