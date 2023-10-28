@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('finalPrice').textContent = `Precio estimado: ${price}€`;
 
             // Suponiendo que ya has generado estos valores con tu código
-            let generatedSummary = encodeURIComponent(summarList); // o como generes el resumen
+            let generatedSummary = summarList; // o como generes el resumen
             let generatedFinalPrice = `Precio estimado: ${price}€`; // o como generes el precio
 
             // Actualiza los campos ocultos en el formulario
