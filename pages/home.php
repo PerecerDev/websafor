@@ -3,7 +3,7 @@
 defined('ABSPATH') OR die;
 
 show_component('StickyHeaderBar','generic');
-show_component('BudgetPopUp','generic');
+show_component('BudgetPopUp','generic'); 
 
 
 show_component('intro');

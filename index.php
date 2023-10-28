@@ -8,7 +8,7 @@ get_header();
 
 ?>
 
-<main class="container mx-auto">
+<main class="mx-auto">
 
     <?php show_page('home') ?>
  

@@ -4,10 +4,10 @@ defined('ABSPATH') OR die;
 
 ?>
 
-<footer class="bg-black text-gray-200 px-10 pt-16 pb-24">
+<footer class="bg-black text-gray-200 px-10 pt-16 pb-24 lg:!pb-32">
        
         
-    <section data-theme="black" class="container mx-auto">
+    <section data-theme="black" class="container mx-auto w-full lg:!w-3/4">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
 
             <!-- Columna 2: Enlaces rápidos -->

@@ -5,35 +5,37 @@ defined('ABSPATH') OR die;
 ?>
 
 <section id="sticky-header" class="hidden bg-opacity-0 transition-all duration-1000 flex flex-col justify-between items-center h-auto fixed top-0 left-0 w-full bg-white z-30 border-b-[1px] border-b-black">
+    <aside class="container w-full mx-auto lg:!w-3/4">
+            
+        <div class="flex w-full justify-between items-center py-2">
+            <!-- Logo a la izquierda -->
+            <a href="/">
+                <?php 
+                    echo '<div class="block w-16 lg:!w-20 ml-8">';
+                        show_component('logo','generic');
+                    echo '</div>';
+                ?>
+            </a>
+            <!-- Botón '+' a la derecha -->
+            <a href="javascript:void(0)" id="toggleButton" class="block right-0 mr-6 font-thin text-4xl">
+                +
+            </a>
+        </div>
 
-    <div class="flex w-full justify-between items-center py-2">
-        <!-- Logo a la izquierda -->
-        <a href="/">
-            <?php 
-                echo '<div class="block w-16 ml-8">';
-                    show_component('logo','generic');
-                echo '</div>';
-            ?>
-        </a>
-        <!-- Botón '+' a la derecha -->
-        <a href="javascript:void(0)" id="toggleButton" class="block right-0 mr-6 font-thin text-4xl">
-            +
-        </a>
-    </div>
+        <!-- Menú de navegación debajo -->
+        <nav id="navMenu" class="transition-opacity transition-max-height duration-00 opacity-0 max-h-0 overflow-hidden w-full font-sans font-light text-xl mt-0 mb-0">
 
-    <!-- Menú de navegación debajo -->
-    <nav id="navMenu" class="transition-opacity transition-max-height duration-00 opacity-0 max-h-0 overflow-hidden w-full font-sans font-light text-xl mt-0 mb-0">
+            <ul class="grid columns-1 gap-5 text-right mr-6 space-x-8">
+                <li><a href="#tener-web" class="">La importancia de una web</a></li>
+                <li><a href="#sobre-nosotros" class="">Sobre nosotros</a></li>
+                <li><a href="#portfolio" class="">Portfolio</a></li>
+                <li><a href="#precios" class="">Precios</a></li>
+                <li><a href="#testimonios" class="">Testimonios</a></li>
+                <li><a href="#contacto" class="">Contacto</a></li>
+            </ul>
+        </nav>
 
-        <ul class="grid columns-1 gap-5 text-right mr-6 space-x-8">
-            <li><a href="#tener-web" class="">La importancia de una web</a></li>
-            <li><a href="#sobre-nosotros" class="">Sobre nosotros</a></li>
-            <li><a href="#portfolio" class="">Portfolio</a></li>
-            <li><a href="#precios" class="">Precios</a></li>
-            <li><a href="#testimonios" class="">Testimonios</a></li>
-            <li><a href="#contacto" class="">Contacto</a></li>
-        </ul>
-    </nav>
-
+    </aside>
 </section>
 
 

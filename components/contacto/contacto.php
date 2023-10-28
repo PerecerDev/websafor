@@ -4,9 +4,9 @@ defined('ABSPATH') OR die;
 
 ?>
 
-<section id="contacto" data-theme="white" class="bg-white text-black px-10 py-16 text-center">
-    <div class="container mx-auto">
-        <h2 class="text-5xl font-bold font-serif mb-10">¡Hablemos!</h2>
+<section id="contacto" data-theme="white" class="bg-white text-black px-10 py-16 lg:!py-32 text-center">
+    <div class="container mx-auto w-full lg:!w-3/4">
+        <h2 class="text-5xl lg:!text-6xl font-bold font-serif mb-10">¡Hablemos!</h2>
         <p class="text-2xl font-medium mb-8">Estamos aquí para ayudarte a llevar tu negocio al siguiente nivel.</p>
         <p class="text-xl font-thin mb-10">Llámanos o envíanos un WhatsApp al <span class="font-semibold">686 18 43 28</span> o escríbenos a <a href="mailto:info@websafor.com" class="underline font-semibold">info@websafor.com</a>.</p>
   

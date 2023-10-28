@@ -4,9 +4,9 @@ defined('ABSPATH') OR die;
 
 ?>
 
-<section id="testimonios" data-theme="green" class="bg-teal-950 text-white px-10 py-16 text-left">
-    <div class="container mx-auto">
-        <h2 class="text-6xl font-bold font-serif mb-20">Lo que dicen nuestros clientes</h2>
+<section id="testimonios" data-theme="green" class="bg-teal-950 text-white px-10 py-16 lg:!py-32 w-full text-left">
+    <div class="container mx-auto w-full lg:!w-3/4">
+        <h2 class="text-6xl font-bold font-serif mb-20 lg:text-center">Lo que dicen nuestros clientes</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-teal-900 mb-8">
             
             <!-- Testimonio 1 -->
