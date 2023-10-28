@@ -740,6 +740,9 @@ video {
 .mt-14 {
   margin-top: 3.5rem;
 }
+.mt-16 {
+  margin-top: 4rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1935,9 +1938,6 @@ video {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
-.\!pt-32 {
-  padding-top: 8rem !important;
-}
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -2158,10 +2158,6 @@ video {
 .text-green-500 {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
-}
-.text-stone-500 {
-  --tw-text-opacity: 1;
-  color: rgb(120 113 108 / var(--tw-text-opacity));
 }
 .text-teal-900 {
   --tw-text-opacity: 1;
@@ -2556,6 +2552,10 @@ video {
     margin: -1rem;
   }
 
+  .sm\:\!w-32 {
+    width: 8rem !important;
+  }
+
   .sm\:gap-6 {
     gap: 1.5rem;
   }
@@ -2617,12 +2617,12 @@ video {
 }
 @media (min-width: 1024px) {
 
-  .lg\:\!-bottom-\[36rem\] {
-    bottom: -36rem !important;
+  .lg\:\!-bottom-\[32rem\] {
+    bottom: -32rem !important;
   }
 
-  .lg\:left-60 {
-    left: 15rem;
+  .lg\:left-48 {
+    left: 12rem;
   }
 
   .lg\:col-span-2 {
@@ -2637,8 +2637,8 @@ video {
     margin-bottom: 5rem !important;
   }
 
-  .lg\:\!mb-32 {
-    margin-bottom: 8rem !important;
+  .lg\:\!mb-24 {
+    margin-bottom: 6rem !important;
   }
 
   .lg\:\!mt-24 {
@@ -2677,14 +2677,6 @@ video {
     width: 80% !important;
   }
 
-  .lg\:\!w-44 {
-    width: 11rem !important;
-  }
-
-  .lg\:\!w-\[35rem\] {
-    width: 35rem !important;
-  }
-
   .lg\:w-3\/4 {
     width: 75%;
   }
@@ -2721,16 +2713,12 @@ video {
     padding-bottom: 8rem !important;
   }
 
-  .lg\:\!pb-40 {
-    padding-bottom: 10rem !important;
+  .lg\:\!pb-32 {
+    padding-bottom: 8rem !important;
   }
 
   .lg\:\!pt-28 {
     padding-top: 7rem !important;
-  }
-
-  .lg\:\!pt-36 {
-    padding-top: 9rem !important;
   }
 
   .lg\:\!pt-80 {
@@ -2781,11 +2769,37 @@ video {
 }
 @media (min-width: 1280px) {
 
+  .xl\:\!-bottom-\[36rem\] {
+    bottom: -36rem !important;
+  }
+
+  .xl\:left-60 {
+    left: 15rem;
+  }
+
+  .xl\:\!w-\[35rem\] {
+    width: 35rem !important;
+  }
+
   .xl\:gap-10 {
     gap: 2.5rem;
   }
 
   .xl\:p-8 {
     padding: 2rem;
+  }
+
+  .xl\:\!pt-36 {
+    padding-top: 9rem !important;
+  }
+
+  .xl\:\!text-5xl {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+
+  .xl\:\!text-7xl {
+    font-size: 4.5rem !important;
+    line-height: 1 !important;
   }
 }

@@ -11,7 +11,7 @@ defined('ABSPATH') OR die;
             <!-- Logo a la izquierda -->
             <a href="/">
                 <?php 
-                    echo '<div class="block w-16 lg:!w-20 ml-8">';
+                    echo '<div class="block w-16 md:!w-18 lg:!w-20 ml-8">';
                         show_component('logo','generic');
                     echo '</div>';
                 ?>
