@@ -125,7 +125,7 @@ defined('ABSPATH') OR die;
         </div>
 
         <!-- Precio componentes extra -->
-        <div class="flex flex-col p-4 pt-10 mt-20 mx-auto text-center text-teal-950 bg-teal-50 rounded-md lg:!py-10 xl:p-8 lg:grid lg:grid-cols-2 lg:gap-10">
+        <div class="flex flex-col p-4 pt-10 mt-20 mx-auto font-thin text-center text-teal-950 bg-teal-50 rounded-md lg:!py-10 xl:p-8 lg:grid lg:grid-cols-2 lg:gap-10">
             <h3 class="col-span-2 mb-4 text-2xl font-serif font-bold pb-2">¿Necesitas más funcionalidades?</h3>
             
             <!-- Reservas y Citas -->
@@ -135,11 +135,11 @@ defined('ABSPATH') OR die;
                 </div>
                 <h4 class="mb-6 text-xl font-serif font-bold">Reservas y Citas</h4>
                 <ul role="list" class="mb-4 space-y-2 text-left">
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Sistema de citas por email o whatsapp</span>
                         <span class="font-bold whitespace-nowrap">190 €</span>
                     </li>
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Sistema de citas con calendario</span>
                         <span class="font-bold whitespace-nowrap">390 €</span>
                     </li>
@@ -153,15 +153,15 @@ defined('ABSPATH') OR die;
                 </div>
                 <h4 class="mb-6 text-xl font-serif font-bold">Contenido y Multimedia</h4>
                 <ul role="list" class="mb-4 space-y-2 text-left">
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Filtros para productos o servicios</span>
                         <span class="font-bold whitespace-nowrap">290 €</span>
                     </li>
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Sección de noticias (blog)</span>
                         <span class="font-bold whitespace-nowrap">390 €</span>
                     </li>
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Galería</span>
                         <span class="font-bold whitespace-nowrap">290 €</span>
                     </li>
@@ -175,19 +175,19 @@ defined('ABSPATH') OR die;
                 </div>
                 <h4 class="mb-6 text-xl font-serif font-bold">Comunicación y Feedback</h4>
                 <ul role="list" class="mb-4 space-y-2 text-left">
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Integración con redes sociales</span>
                         <span class="font-bold whitespace-nowrap">140 €</span>
                     </li>
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Newsletter</span>
                         <span class="font-bold whitespace-nowrap">140 €</span>
                     </li>
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Comentarios y valoraciones</span>
                         <span class="font-bold whitespace-nowrap">290 €</span>
                     </li>
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Chat en directo</span>
                         <span class="font-bold whitespace-nowrap">390 €</span>
                     </li>
@@ -201,11 +201,11 @@ defined('ABSPATH') OR die;
                 </div>
                 <h4 class="mb-6 text-xl font-serif font-bold">Funcionalidades Avanzadas</h4>
                 <ul role="list" class="mb-4 space-y-2 text-left">
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Acceso para usuarios</span>
                         <span class="font-bold whitespace-nowrap">490 €</span>
                     </li>
-                    <li class="flex justify-between items-center">
+                    <li class="flex justify-between">
                         <span>Multilenguaje</span>
                         <span class="font-bold whitespace-nowrap">590 €</span>
                     </li>
@@ -215,7 +215,7 @@ defined('ABSPATH') OR die;
             <a id="precioExt" href="#" class="mt-4 text-white lg:col-span-2 bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
         </div>
 
-        <div class="flex flex-col p-4 mt-20 mx-auto w-full text-center text-teal-950 rounded-md border border-teal-950 p-6">
+        <div class="flex flex-col p-4 mt-20 mx-auto w-full font-thin text-center text-teal-950 rounded-md border border-teal-950 p-6">
             <h3 class="mb-4 text-2xl font-serif font-bold">Todas las webs incluyen</h3>
 
             <ul>
