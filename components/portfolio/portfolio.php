@@ -11,7 +11,7 @@ defined('ABSPATH') OR die;
         <li class="list-none bg-white shadow-md transition hover:shadow-lg">
             <img src=<?php echo RTEMU . "/assets/img/ultimos-trabajos/liralashes.png"; ?> alt="Lira Lashes" class="w-full h-48 object-cover mb-4" />
             <aside class="px-8 pb-6 pt-4">
-                <h3 class="text-theme-on-bg text-2xl font-medium">Lira Lashes</h3>
+                <h3 class="text-theme-on-bg text-2xl lg:mb-5 font-medium">Lira Lashes</h3>
                 <p class="text-xl font-thin italic mb-4">Extensiones de Pestañas en Gandía</p>
                 <p class="">Web de Servicios</p>
                 <a class="text-sm font-thin" href="https://www.liralashes.com" target="_blank">liralashes.com</a>
@@ -20,7 +20,7 @@ defined('ABSPATH') OR die;
         <li class="list-none bg-white shadow-md transition hover:shadow-lg">
             <img src=<?php echo RTEMU . "/assets/img/ultimos-trabajos/solycoco.png"; ?> alt="Soly Cocó" class="w-full h-48 object-cover mb-4" />
             <aside class="px-8 pb-6 pt-4">
-                <h3 class="text-theme-on-bg text-2xl font-medium">Soly Cocó</h3>
+                <h3 class="text-theme-on-bg text-2xl lg:mb-5 font-medium">Soly Cocó</h3>
                 <p class="text-xl font-thin italic mb-4">Portal de información de playas</p>
                 <p class="">Blog de noticias</p>
                 <a class="text-sm font-thin" href="https://www.solycoco.com" target="_blank">solycoco.com</a>
@@ -29,7 +29,7 @@ defined('ABSPATH') OR die;
         <li class="list-none bg-white shadow-md transition hover:shadow-lg">
             <img src=<?php echo RTEMU . "/assets/img/ultimos-trabajos/gestionisabelhita.png"; ?> alt="Gestión Isabel Hita" class="w-full h-48 object-cover mb-4" />
             <aside class="px-8 pb-6 pt-4">
-                <h3 class="text-theme-on-bg text-2xl font-medium">Gestión Isabel Hita</h3>
+                <h3 class="text-theme-on-bg text-2xl lg:mb-5 font-medium">Gestión Isabel Hita</h3>
                 <p class="text-xl font-thin italic mb-4">Gestión de empresas y fincas en Xeraco</p>
                 <p class="">Landing Page</p>
                 <a class="text-sm font-thin" href="https://www.gestionisabelhita.com" target="_blank">gestionisabelhita.com</a>

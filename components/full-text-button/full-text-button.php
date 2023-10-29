@@ -4,13 +4,13 @@ defined('ABSPATH') OR die;
 
 ?>
 
-<section data-theme="green" class="w-full !mt-0 pb-12 pt-48 px-12 text-right text-white bg-teal-950 md:h-[130vh]">
-    <aside class="container mx-auto lg:w-3/4 w-full lg:!pt-80">
-        <h1 class="w-full font-serif text-6xl lg:!text-7xl text-right font-bold mb-8">¿En cuanto tiempo?</h1>
-        <span class="w-full font-sans text-4xl lg:!text-5xl text-right font-thin">Entre 2 y 4 semanas</span>
+<section data-theme="green" class="w-full !mt-0 pb-12 pt-48 px-12 text-right text-white bg-teal-950 lg:h-[120vh]">
+    <aside class="container mx-auto lg:w-3/4 w-full lg:!pt-20">
+        <h1 class="w-full font-serif text-6xl lg:!text-7xl text-right font-bold mb-8 lg:pl-60">¿En cuanto tiempo?</h1>
+        <span class="w-full font-sans text-4xl text-right font-thin">Entre 2 y 4 semanas</span>
         <!-- Botón CTA presupuesto -->
         
-        <a id="openPopUpBudget" href="#" class="block w-full p-6 mt-14 mb-2 text-center rounded-md lg:!mt-80 text-teal-900 bg-orange-200 text-3xl font-sans font-thin">
+        <a id="openPopUpBudget" href="#" class="block w-full p-4 mt-14 mb-2 text-center rounded-md lg:!mt-32 text-teal-900 bg-orange-200 text-3xl font-sans font-thin">
             Obten un Presupuesto Gratuito
         </a>
     </aside>

@@ -12,10 +12,10 @@ defined('ABSPATH') OR die;
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             <!-- Precio para Landing Page -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
-                <h3 class="mb-4 text-2xl font-serif font-bold">Web pagína única</h3>
+                <h3 class="mb-4 text-2xl font-serif font-bold">Pagína Única</h3>
                 <p class="font-ligh sm:text-lg">Tus servicios se muestran como un listado en la pagina principal</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">890 €</span>
+                    <span class="mr-2 text-4xl font-extrabold">890 €</span>
                     <span class="">/desde</span>
                 </div>
                 <!-- Lista de características -->
@@ -45,10 +45,10 @@ defined('ABSPATH') OR die;
             </div>
             <!-- Precio para Servicios -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
-                <h3 class="mb-4 text-2xl font-serif font-bold">Web de Servicios</h3>
+                <h3 class="mb-4 text-2xl font-serif font-bold">Servicios</h3>
                 <p class="font-ligh sm:text-lg">Tus servicios tienen su propia pagina para poder ser detallados</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">1290 €</span>
+                    <span class="mr-2 text-4xl font-extrabold">1290 €</span>
                     <span class="">/desde</span>
                 </div>
                 <!-- Lista de características -->
@@ -83,9 +83,9 @@ defined('ABSPATH') OR die;
             <!-- Precio para E-commerce -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold">Tienda Online</h3>
-                <p class="font-ligh sm:text-lg">Vende tus productos a través de la web. Cada producto tiene su propia pagina</p>
+                <p class="font-ligh sm:text-lg">Vende tus productos a través de la web con una tienda online</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">1790 €</span>
+                    <span class="mr-2 text-4xl font-extrabold">1790 €</span>
                     <span class="">/desde</span>
                 </div>
                 <!-- Lista de características -->
