@@ -9,7 +9,7 @@ defined('ABSPATH') OR die;
         <h2 class="text-5xl font-bold font-serif mb-10">¡Tu negocio al siguiente nivel!</h2>
         <p class="text-xl font-thin mb-10">Llámanos o envíanos un WhatsApp al <span class="font-semibold">644 286 244</span> o escríbenos a <a href="mailto:info@websafor.com" class="underline font-semibold">info@websafor.com</a>.</p>
 
-        <div class="mt-6 lg:flex justify-center space-x-4">
+        <div class="mt-6 lg:flex justify-center gap-4">
             <a id="emailButton" href="tel:+34644286244" class="flex items-center justify-center mb-4 gap-4 flex-grow-0 flex-shrink-0 px-6 py-4 bg-gray-300 hover:bg-gray-400 text-teal-900 rounded-lg shadow-md transition duration-200 ease-in-out w-full lg:w-auto">
                 <svg id="phoneIcon" data-name="Capa 1" width="2rem" height="2rem" style="fill: #134e4a;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.62 10.67">
                     <path class="cls-1" d="m6.62,5.33c0,1.34,0,2.69,0,4.03,0,.65-.42,1.16-1.05,1.29-.07.01-.13.02-.2.02-1.37,0-2.75,0-4.12,0-.67,0-1.24-.56-1.25-1.23,0-.44,0-.89,0-1.33,0-2.27,0-4.53,0-6.8C0,.65.42.14,1.06.02c.07-.01.13-.02.2-.02,1.37,0,2.73,0,4.1,0,.69,0,1.26.57,1.26,1.27,0,1.35,0,2.71,0,4.06Zm-6.09,0c0,1.34,0,2.68,0,4.02,0,.48.31.79.79.79,1.33,0,2.65,0,3.98,0,.07,0,.14,0,.21-.02.35-.09.57-.38.57-.77,0-2.68,0-5.36,0-8.03,0-.03,0-.06,0-.08-.02-.37-.33-.68-.7-.7-.19,0-.39,0-.58,0-.08,0-.12.03-.15.1-.05.11-.11.22-.16.33-.1.23-.29.33-.53.33-.44,0-.88,0-1.32,0-.24,0-.42-.11-.52-.33-.05-.12-.12-.23-.18-.35-.02-.04-.04-.08-.08-.08-.27,0-.54-.04-.8.03-.32.09-.53.38-.53.73,0,1.34,0,2.69,0,4.03Z"/>
