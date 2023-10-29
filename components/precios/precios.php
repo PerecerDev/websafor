@@ -9,11 +9,11 @@ defined('ABSPATH') OR die;
         <div class="mx-auto text-center mb-8 lg:mb-12">
             <h2 class="mb-4 lg:!mb-10 text-5xl lg:!text-6xl font-bold font-serif text-teal-950 ">Precios de Webs</h2>
         </div>
-        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0 font-thin">
             <!-- Precio para Landing Page -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold">Pagína Única</h3>
-                <p class="font-ligh sm:text-lg">Tus servicios se muestran como un listado en la pagina principal</p>
+                <p class="font-thin sm:text-lg">Tus servicios se muestran como un listado en la pagina principal</p>
                 <div class="flex justify-center items-baseline my-8">
                     <span class="mr-2 text-4xl font-extrabold">890 €</span>
                     <span class="">/desde</span>
@@ -41,12 +41,12 @@ defined('ABSPATH') OR die;
                         <span>Formulario de contacto</span>
                     </li>
                 </ul>
-                <a id="precioLan" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-light rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+                <a id="precioLan" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
             </div>
             <!-- Precio para Servicios -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold">Servicios</h3>
-                <p class="font-ligh sm:text-lg">Tus servicios tienen su propia pagina para poder ser detallados</p>
+                <p class="font-thin sm:text-lg">Tus servicios tienen su propia pagina para poder ser detallados</p>
                 <div class="flex justify-center items-baseline my-8">
                     <span class="mr-2 text-4xl font-extrabold">1290 €</span>
                     <span class="">/desde</span>
@@ -78,12 +78,12 @@ defined('ABSPATH') OR die;
                         <span>Puedes añadir funcionalidades extra</span>
                     </li>
                 </ul>
-                <a id="precioSer" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-light rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+                <a id="precioSer" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
             </div>
             <!-- Precio para E-commerce -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-4 text-2xl font-serif font-bold">Tienda Online</h3>
-                <p class="font-ligh sm:text-lg">Vende tus productos a través de la web con una tienda online</p>
+                <p class="font-thin sm:text-lg">Vende tus productos a través de la web con una tienda online</p>
                 <div class="flex justify-center items-baseline my-8">
                     <span class="mr-2 text-4xl font-extrabold">1790 €</span>
                     <span class="">/desde</span>
@@ -119,7 +119,7 @@ defined('ABSPATH') OR die;
                         <span>Formulario de contacto</span>
                     </li>
                 </ul>
-                <a id="precioTie" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-light rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+                <a id="precioTie" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
             </div>
 
         </div>
@@ -212,10 +212,10 @@ defined('ABSPATH') OR die;
                 </ul>
             </div>
 
-            <a id="precioExt" href="#" class="mt-4 text-white lg:col-span-2 bg-teal-900 hover:bg-teal-950 font-light rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+            <a id="precioExt" href="#" class="mt-4 text-white lg:col-span-2 bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
         </div>
 
-        <div class="flex flex-col p-4 lg:mt-16 mx-auto w-full text-center text-teal-950 rounded-md border border-teal-950 p-6">
+        <div class="flex flex-col p-4 mt-20 mx-auto w-full text-center text-teal-950 rounded-md border border-teal-950 p-6">
             <h3 class="mb-4 text-2xl font-serif font-bold">Todas las webs incluyen</h3>
 
             <ul>
