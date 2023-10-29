@@ -4,3 +4,7 @@ Author: PerecerDev
 Description: Template para WebSafor
 Version: 1.0
 */
+
+.grecaptcha-badge {
+    display: none !important;
+}
