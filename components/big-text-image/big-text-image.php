@@ -10,7 +10,7 @@ $img = RTEMU . '/assets/img/componentes/pensando2.png';
     <aside class="container mx-auto w-full md:!w-3/4 relative z-20 p-12 pt-32 xl:!pt-36 text-right text-teal-900">
         
         <h2 class="w-full font-serif text-6xl md:pl-40 xl:!text-7xl font-bold mb-10 text-white">¿Cuánto cuesta una web?</h2>
-        <h3 class="w-full font-sans text-4xl font-thin text-right text-teal-900 mb-20 pl-36">Desde 890 €</h3>
+        <h3 class="w-full font-sans text-4xl font-thin text-right text-teal-900 mb-20 pl-40">Desde 890 €</h3>
 
     </aside>
     <aside class="container w-full relative">
