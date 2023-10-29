@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const sections = document.querySelectorAll('section[data-theme]');
     const sticky = document.querySelector('#sticky-header');
     const stickyBudget = document.querySelector('#budgetSticky');
+    const phoneSticky = document.querySelector('#phoneSticky');
+    const phoneIcon = document.querySelector('#phoneIcon');
     const logo = document.querySelector('.logo');
     const plusButton = document.querySelector('#toggleButton');
     const navMenu = document.querySelector('#navMenu');
@@ -64,26 +66,41 @@ const applyStylesForStickyBudget = (theme) => {
       case 'white':
           stickyBudget.style.background = 'black';
           stickyBudget.style.color = 'white';
+          phoneSticky.style.background = 'black';
+          phoneSticky.style.color = 'white';
+          phoneIcon.style.fill = 'white';
           break;
 
       case 'orange':
           stickyBudget.style.background = '#042f2e';
           stickyBudget.style.color = '#fed7aa';
+          phoneSticky.style.background = '#042f2e';
+          phoneSticky.style.color = '#fed7aa';
+          phoneIcon.style.fill = '#fed7aa';
           break;
 
       case 'green':
           stickyBudget.style.background = '#fed7aa';
           stickyBudget.style.color = '#042f2e';
+          phoneSticky.style.background = '#fed7aa';
+          phoneSticky.style.color = '#042f2e';
+          phoneIcon.style.fill = '#042f2e';
           break;
 
       case 'black':
           stickyBudget.style.background = 'white';
           stickyBudget.style.color = 'black';
+          phoneSticky.style.background = 'white';
+          phoneSticky.style.color = 'black';
+          phoneIcon.style.fill = 'black';
           break;
 
       case 'grey':
           stickyBudget.style.background = '#042f2e';
           stickyBudget.style.color = '#e5e7eb';
+          phoneSticky.style.background = '#042f2e';
+          phoneSticky.style.color = '#fed7aa';
+          phoneIcon.style.fill = '#fed7aa';
           break;
   }
 };

@@ -135,10 +135,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     summarList += `· ${questionLabel} \r\n`;
                     if (Array.isArray(answers[key])) {
                         answerList += `<p class="font-bold ml-4">${answers[key].join(', ')}</p>`;
-                        summarList += `- ${answers[key].join(', ')} \r\n`;
+                        summarList += `- ${answers[key].join(', ')} \r\n\r\n`;
                     } else {
                         answerList += `<p class="font-bold ml-4">${answers[key]}</p>`;
-                        summarList += `- ${answers[key]} \r\n`;
+                        summarList += `- ${answers[key]} \r\n\r\n`;
                     }
                     answerList += `</div>`;
                 }
