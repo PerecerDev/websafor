@@ -29,7 +29,7 @@ defined('ABSPATH') OR die;
                 <h4 class="text-xl font-bold mb-4">Contacto</h4>
                 <ul class="text-sm font-thin">
                     <li class="mb-2"><i class="fas fa-envelope mr-2"></i>info@websafor.com</li>
-                    <li class="mb-2"><i class="fas fa-phone-alt mr-2"></i>+34 686 18 43 28</li>
+                    <li class="mb-2"><i class="fas fa-phone-alt mr-2"></i>+34 644 286 244</li>
                 </ul>
             </div>
 

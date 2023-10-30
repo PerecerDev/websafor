@@ -1,167 +1,79 @@
+
 const webPrice = [
     {
-        title: "Tipo de Web",
+        title: "Nombre del Negocio",
+        items: [
+            {
+                type: "text",
+                label: "¿Cómo se llama el negocio?",
+                description: "Introduce el nombre de tu negocio.",
+                name: "businessName",
+                price: 0
+            }
+        ]
+    },
+    {
+        title: "Sector del Negocio",
+        items: [
+            {
+                type: "select",
+                label: "¿Cuál es el sector de tu negocio?",
+                description: "Selecciona el sector al que pertenece tu negocio.",
+                name: "businessSector",
+                options: [
+                    { label: "Agricultura y Ganadería", value: "agricultura_ganaderia", price: 890},
+                    { label: "Alimentación y Bebidas", value: "alimentacion_bebidas", price: 890 },
+                    { label: "Arte y Cultura", value: "arte_cultura", price: 890 },
+                    { label: "Automoción", value: "automocion", price: 890 },
+                    { label: "Construcción e Inmobiliaria", value: "construccion_inmobiliaria", price: 890 },
+                    { label: "Educación", value: "educacion", price: 890 },
+                    { label: "Energía y Medio Ambiente", value: "energia_medioambiente", price: 890 },
+                    { label: "Finanzas y Seguros", value: "finanzas_seguros", price: 890 },
+                    { label: "Industria y Manufactura", value: "industria_manufactura", price: 890 },
+                    { label: "Informática y Tecnología", value: "informatica_tecnologia", price: 890 },
+                    { label: "Medicina y Salud", value: "medicina_salud", price: 890 },
+                    { label: "Moda y Belleza", value: "moda_belleza", price: 890 },
+                    { label: "Ocio y Entretenimiento", value: "ocio_entretenimiento", price: 890 },
+                    { label: "Restauración y Hostelería", value: "restauracion_hosteleria", price: 890 },
+                    { label: "Servicios Profesionales", value: "servicios_profesionales", price: 890 },
+                    { label: "Transporte y Logística", value: "transporte_logistica", price: 890 },
+                    { label: "Otros", value: "otros", price: 890 }
+                ]
+            }
+        ]
+    },
+    {
+        title: "Web Existente",
         items: [
             {
                 type: "radio",
-                label: "¿Qué tipo de web necesitas?",
-                description: "Escoge el tipo de web que necesitas para tu proyecto",
+                label: "¿Ya tienes una web?",
+                description: "Indica si ya cuentas con una página web.",
+                name: "existingWebsite",
                 options: [
-                    { label: "Web de página única", price: 890, tip: "Tus servicios se muestran como un listado en la pagina principal-", checked: true },
-                    { label: "Web de Servicios", price: 1290, tip: "Tus servicios tienen su propia pagina para poder ser detallados." },
-                    { label: "Tienda Online", price: 1790, tip: "Vende tus productos a través de la web. Cada producto tiene su propia pagina." },
-                    { label: "Personalizada", price: 2490, tip: "Tu web completamente a medida. Ideal para proyectos con necesidades especiales." }
-                ],
-                name: "webType"
+                    { label: "No, esta será mi primera web", value: "no", price: 70, tip: "Si esta es tu primera web, te ayudaremos a crear una presencia en línea desde cero.", checked: true },
+                    { label: "Sí, ya tengo web y quiero renovarla", value: "yes", price: 0, tip: "Si ya tienes una web, trabajaremos en mejorarla y adaptarla a tus necesidades actuales."},
+                ]
             }
         ]
     },
     {
-        title: "Reservas y Citas",
-        items: [
-            {
-                type: "checkbox",
-                label: "Opciones de Reservas y Citas",
-                description: "Seleccione las opciones de reservas y citas que desea integrar en su sitio web.",
-                options: [
-                    { label: "Sistema de citas por email o whatsapp", price: 190, tip: "Permite a los visitantes reservar citas por email o whatsapp." },
-                    { label: "Sistema de citas con calendario", price: 390, tip: "Permite a los visitantes reservar citas a través de un calendario interactivo." }
-                ],
-                name: "bookingOptions"
-            }
-        ]
-    },
-    {
-        title: "Contenido y Multimedia",
-        items: [
-            {
-                type: "checkbox",
-                label: "Opciones de Contenido y Multimedia",
-                description: "Seleccione las características de contenido y multimedia que desea para su sitio web.",
-                options: [
-                    { label: "Filtros para productos o servicios", price: 290, tip: "Facilita la búsqueda de productos o servicios específicos." },
-                    { label: "Sección de noticias (blog)", price: 390, tip: "Comparta noticias, artículos o actualizaciones con sus visitantes." },
-                    { label: "Galería", price: 290, tip: "Muestre imágenes o proyectos en un formato visual atractivo." }
-                ],
-                name: "contentOptions"
-            }
-        ]
-    },
-    {
-        title: "Comunicación y Feedback",
-        items: [
-            {
-                type: "checkbox",
-                label: "Opciones de Comunicación y Feedback",
-                description: "Seleccione las opciones de comunicación y feedback que desea para su sitio web.",
-                options: [
-                    { label: "Integración con redes sociales", price: 140, tip: "Conecte su sitio web con sus perfiles de redes sociales." },
-                    { label: "Newsletter", price: 140, tip: "Recopile correos electrónicos para enviar boletines o actualizaciones." },
-                    { label: "Comentarios y valoraciones", price: 290, tip: "Permite a los visitantes dejar comentarios o valoraciones." },
-                    { label: "Chat en directo", price: 390, tip: "Comunicación en tiempo real con los visitantes del sitio web." }
-                ],
-                name: "communicationOptions"
-            }
-        ]
-    },
-    {
-        title: "Funcionalidades Avanzadas",
-        items: [
-            {
-                type: "checkbox",
-                label: "Opciones Avanzadas",
-                description: "Seleccione las funcionalidades avanzadas que desea para su sitio web.",
-                options: [
-                    { label: "Acceso para usuarios", price: 490, tip: "Un área exclusiva para miembros o usuarios registrados." },
-                    { label: "Multilenguaje", price: 590, tip: "Ofrezca su contenido en varios idiomas." }
-                ],
-                name: "advancedOptions"
-            }
-        ]
-    },
-    {
-        title: "Identidad de Marca",
+        title: "Imágenes",
         items: [
             {
                 type: "radio",
-                label: "¿Tiene logotipo y estilo de marca?",
-                description: "Indique si ya cuenta con elementos de identidad de marca.",
+                label: "¿Tienes imágenes de tus productos o servicios?",
+                description: "Indica si cuentas con las imágenes necesarias para mostrar en tu página web.",
+                name: "hasImages",
                 options: [
-                    { label: "Tengo logo y estilo de marca", price: 0, tip: "Ya tiene un logotipo y guía de estilo definidos." },
-                    { label: "Solo tengo logo", price: 120, tip: "Solo cuenta con un logotipo, pero no una guía de estilo." },
-                    { label: "Solo tengo estilo de marca", price: 180, tip: "Tiene una guía de estilo pero no un logotipo." },
-                    { label: "No tengo ninguna", price: 280, tip: "Necesita tanto un logotipo como una guía de estilo.", checked: true }
-                ],
-                name: "brandIdentity"
+                    { label: "No, necesito contratarlas", value: "no", price: 250, tip: "Si no tienes imágenes, podemos ayudarte a obtener fotografías profesionales para tu web.", checked: true },
+                    { label: "Sí, ya cuento con las imagenes necesarias", value: "yes", price: 0, tip: "Si ya tienes imágenes, las integraremos en tu web para que se vean de la mejor manera." },
+                ]
             }
         ]
-    },
-    {
-        title: "Contenido para la Web",
-        items: [
-            {
-                type: "radio",
-                label: "¿Tiene contenido para su web?",
-                description: "Indique si ya cuenta con contenido o si necesita que se genere.",
-                options: [
-                    { label: "Sí, lo tengo", price: 0, tip: "Ya cuenta con todo el contenido necesario para el sitio web.", checked: true },
-                    { label: "No, me gustaría contratarlo", price: 550, tip: "Necesita que se genere contenido para el sitio web." }
-                ],
-                name: "webContent"
-            },
-        ]
-    },
-    {
-        title: "Público Objetivo",
-        items: [
-            {
-                type: "radio",
-                label: "¿A qué público se dirige su negocio?",
-                description: "Seleccione el segmento demográfico al que se dirige su negocio.",
-                options: [
-                    { label: "Mujeres", price: 0, tip: "Su negocio se dirige principalmente a mujeres." },
-                    { label: "Hombres", price: 0, tip: "Su negocio se dirige principalmente a hombres." },
-                    { label: "Ambos", price: 0, tip: "Su negocio se dirige tanto a hombres como a mujeres.", checked: true }
-                ],
-                name: "targetGender"
-            },
-            {
-                type: "checkbox",
-                label: "¿De qué edad?",
-                description: "Seleccione el rango de edad al que se dirige su negocio.",
-                options: [
-                    { label: "Entre 18 y 30", price: 0, tip: "Jóvenes adultos." },
-                    { label: "Entre 31 y 50", price: 0, tip: "Adultos en sus 30s." },
-                    { label: "Más de 50", price: 0, tip: "Adultos mayores." },
-                    { label: "Todas las edades", price: 0, tip: "Su negocio se dirige a todas las edades." }
-                ],
-                name: "targetAge"
-            }
-        ]
-    },
-    {
-        title: "Dominio y Alojamiento",
-        items: [
-            {
-                type: "radio",
-                label: "¿Ya cuentan con un dominio y alojamiento web o necesitarán ayuda con esto?",
-                description: "Indique si ya tiene dominio y alojamiento o si necesita asistencia con ello.",
-                options: [
-                    { label: "Tengo dominio y hosting", price: 0, tip: "Ya cuenta con un dominio y alojamiento web." },
-                    { label: "Tengo dominio", price: 60, tip: "Solo tiene un dominio, pero necesita alojamiento web." },
-                    { label: "No tengo nada", price: 110, tip: "Necesita tanto un dominio como alojamiento web.", checked: true }
-                ],
-                name: "domainHosting"
-            }
-        ]
-    },   
-    
+    }
+
 ];
-
-
-
-
-
 
 
 

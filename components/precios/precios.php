@@ -12,82 +12,52 @@ defined('ABSPATH') OR die;
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0 font-thin">
             <!-- Precio para Landing Page -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
-                <h3 class="mb-4 text-2xl font-serif font-bold">Pagína Única</h3>
-                <p class="font-thin sm:text-lg">Tus servicios se muestran como un listado en la pagina principal</p>
-                <div class="flex justify-center items-baseline my-8">
+                <h3 class="mb-6 text-2xl font-serif font-bold">Presentación</h3>
+                <p class="font-thin mb-4">Tu web es tu escaparate con el que atraer nuevos clientes con los servicios que ofreces.</p>
+                <p class="mb-4 text-lg font-sans font-normal"><em>* Ideal para la mayoría de empresas</em></p>
+                <div class="flex justify-center items-baseline mt-8">
                     <span class="mr-2 text-4xl font-extrabold">890 €</span>
                     <span class="">/desde</span>
                 </div>
+                <span class="block mb-8">IVA incluido</span>
+
                 <!-- Lista de características -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Listado de Servicios</span>
+                        <span>Diseño personalizado</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Descripción del negocio</span>
+                        <span>Presentación de tus servicios</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Sección de Testimonios</span>
+                        <span>Descripción de tu negocio</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Información de contacto</span>
+                        <span>Opiniones de tus clientes</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Formulario de contacto</span>
+                        <span>Formas de contacto directo</span>
                     </li>
                 </ul>
-                <a id="precioLan" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+                <a id="precioLan" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">¡Quiero esta web!</a>
             </div>
-            <!-- Precio para Servicios -->
-            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
-                <h3 class="mb-4 text-2xl font-serif font-bold">Servicios</h3>
-                <p class="font-thin sm:text-lg">Tus servicios tienen su propia pagina para poder ser detallados</p>
-                <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-4xl font-extrabold">1290 €</span>
-                    <span class="">/desde</span>
-                </div>
-                <!-- Lista de características -->
-                <ul role="list" class="mb-8 space-y-4 text-left">
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Una pagina para cada Servicio</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Página de 'Sobre nosotros'</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Página de Testimonios</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Página de contacto</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Formulario de contacto</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Puedes añadir funcionalidades extra</span>
-                    </li>
-                </ul>
-                <a id="precioSer" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
-            </div>
+
             <!-- Precio para E-commerce -->
-            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
-                <h3 class="mb-4 text-2xl font-serif font-bold">Tienda Online</h3>
-                <p class="font-thin sm:text-lg">Vende tus productos a través de la web con una tienda online</p>
-                <div class="flex justify-center items-baseline my-8">
+            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-50 rounded-md shadow xl:p-8">
+                <h3 class="mb-6 text-2xl font-serif font-bold">Tienda online</h3>
+                <p class="font-thin mb-4">Podrás mostrar tus productos y venderlos a través de tu web en cualquier momento del día.</p>
+                <p class="mb-4 text-lg font-sans font-normal"><em>* Perfecta para vender tus productos</em></p>
+                <div class="flex justify-center items-baseline mt-8">
                     <span class="mr-2 text-4xl font-extrabold">1790 €</span>
                     <span class="">/desde</span>
                 </div>
+                <span class="block mb-8">IVA incluido</span>
+
                 <!-- Lista de características -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
@@ -100,36 +70,81 @@ defined('ABSPATH') OR die;
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Pasarela de Pago</span>
+                        <span>Pasarela de Pago integrada</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Descripción del negocio</span>
+                        <span>Descripción de tu negocio</span>
                     </li>
                     <li class="flex items-center space-x-3">
                         <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Sección de Testimonios</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Información de contacto</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Formulario de contacto</span>
+                        <span>Opiniones de tus clientes</span>
                     </li>
                 </ul>
-                <a id="precioTie" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+                <a id="precioTie" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">¡Quiero esta tienda!</a>
             </div>
+
+            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-50 rounded-md shadow xl:p-8">
+                <h3 class="mb-6 text-2xl font-serif font-bold">Personalizado</h3>
+                <p class="font-thin mb-4">Desarrollamos tu web según tus necesidades y visiones específicas.</p>
+                <p class="mb-4 text-lg font-sans font-normal"><em>* Pensado para requerimientos especiales</em></p>
+                <div class="flex justify-center items-baseline mt-8">
+                    <span class="mr-2 text-4xl font-extrabold">Consultar</span>
+                </div>
+                <span class="block mb-8">Precio según especificaciones</span>
+
+                <!-- Lista de características -->
+                <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Diseño y funcionalidades a medida</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Integraciones específicas</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Optimización para tu negocio</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Funcionalidades avanzadas</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Soporte y asesoramiento</span>
+                    </li>
+                </ul>
+                <a id="precioPersonalizado" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+            </div>
+
 
         </div>
 
+        
+
+        
+
+        <div class="flex flex-col p-4 mt-20 mx-auto w-full font-thin text-center text-teal-950 rounded-md border border-teal-950 p-6">
+            <h3 class="mb-4 text-2xl font-serif font-bold">Todas las webs incluyen</h3>
+
+            <ul>
+                <li>* Hosting</li>
+                <li>* Dominio</li>
+                <li>* Sistema de autogestión</li>
+                <li>* SEO básico</li>
+                <li>* Diseño adaptable</li>
+            </ul>
+        </div>
+
+
         <!-- Precio componentes extra -->
-        <div class="flex flex-col p-4 pt-10 mt-20 mx-auto font-thin text-center text-teal-950 bg-teal-50 rounded-md lg:!py-10 xl:p-8 lg:grid lg:grid-cols-2 lg:gap-10">
-            <h3 class="col-span-2 mb-4 text-2xl font-serif font-bold pb-2">¿Necesitas más funcionalidades?</h3>
+        <!-- <div class="flex flex-col p-4 pt-10 mt-20 mx-auto font-thin text-center text-teal-950 bg-teal-50 rounded-md lg:!py-10 xl:p-8 lg:grid lg:grid-cols-2 lg:gap-10">
+            <h3 class="col-span-2 mb-4 text-2xl font-serif font-bold pb-2">¿Necesitas más funcionalidades?</h3> -->
             
             <!-- Reservas y Citas -->
-            <div class="mb-4 rounded-md shadow p-6 bg-white">
+            <!-- <div class="mb-4 rounded-md shadow p-6 bg-white">
                 <div class="mb-2 text-3xl text-teal-900">
                     <i class="fas fa-calendar-check"></i>
                 </div>
@@ -144,10 +159,10 @@ defined('ABSPATH') OR die;
                         <span class="font-bold whitespace-nowrap">390 €</span>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Contenido y Multimedia -->
-            <div class="mb-4 rounded-md shadow p-6 bg-white">
+            <!-- <div class="mb-4 rounded-md shadow p-6 bg-white">
                 <div class="mb-2 text-3xl text-teal-900">
                     <i class="fas fa-images"></i>
                 </div>
@@ -166,10 +181,10 @@ defined('ABSPATH') OR die;
                         <span class="font-bold whitespace-nowrap">290 €</span>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Comunicación y Feedback -->
-            <div class="mb-4 rounded-md shadow p-6 bg-white">
+            <!-- <div class="mb-4 rounded-md shadow p-6 bg-white">
                 <div class="mb-2 text-3xl text-teal-900">
                     <i class="fas fa-comments"></i>
                 </div>
@@ -192,10 +207,10 @@ defined('ABSPATH') OR die;
                         <span class="font-bold whitespace-nowrap">390 €</span>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Funcionalidades Avanzadas -->
-            <div class="mb-4 rounded-md shadow p-6 bg-white">
+            <!-- <div class="mb-4 rounded-md shadow p-6 bg-white">
                 <div class="mb-2 text-3xl text-teal-900">
                     <i class="fas fa-cogs"></i>
                 </div>
@@ -210,22 +225,10 @@ defined('ABSPATH') OR die;
                         <span class="font-bold whitespace-nowrap">590 €</span>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-            <a id="precioExt" href="#" class="mt-4 text-white lg:col-span-2 bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
-        </div>
-
-        <div class="flex flex-col p-4 mt-20 mx-auto w-full font-thin text-center text-teal-950 rounded-md border border-teal-950 p-6">
-            <h3 class="mb-4 text-2xl font-serif font-bold">Todas las webs incluyen</h3>
-
-            <ul>
-                <li>* Hosting</li>
-                <li>* Dominio</li>
-                <li>* Sistema de autogestión</li>
-                <li>* SEO básico</li>
-                <li>* Diseño adaptable</li>
-            </ul>
-        </div>
+            <!-- <a id="precioExt" href="#" class="mt-4 text-white lg:col-span-2 bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Solicitar presupuesto</a>
+        </div> -->
 
     </div>
 </section>
