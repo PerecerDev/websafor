@@ -11,9 +11,7 @@ defined('ABSPATH') OR die;
         </div>    
         <!-- Paso 1: Acuerdo de web -->
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto text-center">
-            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-            </div>
+            
             <div class="flex flex-col items-center">
                 <div class="flex-shrink-0 w-16 h-16 rounded-full mb-4 inline-flex items-center text-center justify-center bg-teal-900 text-white relative z-10 title-font font-medium text-2xl">1</div>
                 <h2 class="font-medium title-font text-teal-900 mb-1 text-xl">Acuerdo de Web</h2>
@@ -22,9 +20,7 @@ defined('ABSPATH') OR die;
         </div>
         <!-- Paso 2: Firma de contrato -->
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto text-center">
-            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-            </div>
+            
             <div class="flex flex-col items-center">
                 <div class="flex-shrink-0 w-16 h-16 rounded-full mb-4 inline-flex items-center text-center justify-center bg-teal-900 text-white relative z-10 title-font font-medium text-2xl">2</div>
                 <h2 class="font-medium title-font text-teal-900 mb-1 text-xl">Firma de contrato</h2>
@@ -33,9 +29,7 @@ defined('ABSPATH') OR die;
         </div>
         <!-- Paso 3: Depósito del 50% -->
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto text-center">
-            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-            </div>
+            
             <div class="flex flex-col items-center">
                 <div class="flex-shrink-0 w-16 h-16 rounded-full mb-4 inline-flex items-center text-center justify-center bg-teal-900 text-white relative z-10 title-font font-medium text-2xl">3</div>
                 <h2 class="font-medium title-font text-teal-900 mb-1 text-xl">Depósito del 50%</h2>
@@ -45,9 +39,7 @@ defined('ABSPATH') OR die;
 
         <!-- Paso 4: Desarrollo del proyecto -->
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto text-center">
-            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-            </div>
+            
             <div class="flex flex-col items-center">
                 <div class="flex-shrink-0 w-16 h-16 rounded-full mb-4 inline-flex items-center text-center justify-center bg-teal-900 text-white relative z-10 title-font font-medium text-2xl">4</div>
                 <h2 class="font-medium title-font text-teal-900 mb-1 text-xl">Desarrollo del proyecto</h2>
@@ -56,9 +48,7 @@ defined('ABSPATH') OR die;
         </div>
         <!-- Paso 5: Restante 50% -->
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto text-center">
-            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-            </div>
+            
             <div class="flex flex-col items-center">
                 <div class="flex-shrink-0 w-16 h-16 rounded-full mb-4 inline-flex items-center text-center justify-center bg-teal-900 text-white relative z-10 title-font font-medium text-2xl">5</div>
                 <h2 class="font-medium title-font text-teal-900 mb-1 text-xl">Restante 50%</h2>
@@ -68,9 +58,7 @@ defined('ABSPATH') OR die;
 
         <!-- Paso 6: Entrega de proyecto -->
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto text-center">
-            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-            </div>
+            
             <div class="flex flex-col items-center">
                 <div class="flex-shrink-0 w-16 h-16 rounded-full mb-4 inline-flex items-center text-center justify-center bg-teal-900 text-white relative z-10 title-font font-medium text-2xl">6</div>
                 <h2 class="font-medium title-font text-teal-900 mb-1 text-xl">Entrega de proyecto</h2>
