@@ -30,6 +30,7 @@ defined('ABSPATH') OR die;
                 <li><a href="#sobre-nosotros" class="">Sobre nosotros</a></li>
                 <li><a href="#portfolio" class="">Portfolio</a></li>
                 <li><a href="#precios" class="">Precios</a></li>
+                <li><a href="#proceso" class="">Proceso</a></li>
                 <li><a href="#testimonios" class="">Testimonios</a></li>
                 <li><a href="#contacto" class="">Contacto</a></li>
             </ul>
