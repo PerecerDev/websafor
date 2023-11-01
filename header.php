@@ -13,7 +13,7 @@ defined('ABSPATH') OR die;
 		<title>WebSafor - Tu propia web</title>
 		<?php wp_head(); ?>
 
-		
+
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-GPRNVPPKWH"></script>
 		<script>
@@ -36,6 +36,10 @@ defined('ABSPATH') OR die;
 		<script>
 		gtag('event', 'conversion', {'send_to': 'AW-11385693493/RGYeCIvlq-8YELXKj7Uq'});
 		</script>
+
+		<a title="Web Analytics" href="https://clicky.com/101432110" style="display:none;"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+		<script async data-id="101432110" src="//static.getclicky.com/js"></script>
+
 
 
 		
