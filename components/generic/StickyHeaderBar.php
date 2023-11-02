@@ -26,13 +26,13 @@ defined('ABSPATH') OR die;
         <nav id="navMenu" class="transition-opacity transition-max-height duration-00 opacity-0 max-h-0 overflow-hidden w-full font-sans font-light text-xl mt-0 mb-0">
 
             <ul class="grid columns-1 gap-5 text-right mr-6 space-x-8">
-                <li><a href="#tener-web" class="">La importancia de una web</a></li>
-                <li><a href="#sobre-nosotros" class="">Sobre nosotros</a></li>
-                <li><a href="#portfolio" class="">Portfolio</a></li>
-                <li><a href="#precios" class="">Precios</a></li>
-                <li><a href="#proceso" class="">Proceso</a></li>
-                <li><a href="#testimonios" class="">Testimonios</a></li>
-                <li><a href="#contacto" class="">Contacto</a></li>
+                <li><a id="tenerWebButtonNav" href="#tener-web" class="">La importancia de una web</a></li>
+                <li><a id="sobreNosotrosButtonNav" href="#sobre-nosotros" class="">Sobre nosotros</a></li>
+                <li><a id="portfolioButtonNav" href="#portfolio" class="">Portfolio</a></li>
+                <li><a id="preciosButtonNav" href="#precios" class="">Precios</a></li>
+                <li><a id="procesoButtonNav" href="#proceso" class="">Proceso</a></li>
+                <li><a id="testimoniosButtonNav" href="#testimonios" class="">Testimonios</a></li>
+                <li><a id="contactoButtonNav" href="#contacto" class="">Contacto</a></li>
             </ul>
         </nav>
 

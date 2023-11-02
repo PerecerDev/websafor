@@ -5,7 +5,7 @@ defined('ABSPATH') OR die;
 ?>
 
 <!-- Full Text Block -->
-<section data-theme="white" class="grid place-content-center w-full h-screen p-12 text-black bg-white">
+<section id="first-section" data-theme="white" class="grid place-content-center w-full h-screen p-12 text-black bg-white">
     <aside class="container w-full mx-auto md:!w-2/3 lg:!w-3/4">
         <?php
             echo '<div class="mx-auto mb-12 w-28 sm:!w-32 lg:!w-38 lg:!mb-24 block">';
