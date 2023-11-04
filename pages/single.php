@@ -7,7 +7,7 @@ show_component('BudgetPopUp','generic');
 
 ?>
 <section data-theme="white" class=" text-teal-900 px-10 py-16 lg:!py-32 body-font font-sans">
-    <div class="container w-full lg:!w-3/4">
+    <div class="container mx-auto w-full lg:!w-3/4">
         <?php
         // Empieza el bucle de WordPress.
         while ( have_posts() ) : the_post(); ?>

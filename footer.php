@@ -14,14 +14,14 @@ defined('ABSPATH') OR die;
             <div>
                 <h4 class="text-xl font-bold mb-4">Enlaces rápidos</h4>
                 <ul class="grid columns-1 gap-5">
-                    <li><a id="tenerWebButtonNav" href="#tener-web" class="">La importancia de una web</a></li>
-                    <li><a id="sobreNosotrosButtonNav" href="#sobre-nosotros" class="">Sobre nosotros</a></li>
-                    <li><a id="portfolioButtonNav" href="#portfolio" class="">Portfolio</a></li>
-                    <li><a id="preciosButtonNav" href="#precios" class="">Precios</a></li>
-                    <li><a id="procesoButtonNav" href="#proceso" class="">Proceso</a></li>
-                    <li><a id="testimoniosButtonNav" href="#testimonios" class="">Testimonios</a></li>
-                    <li><a id="contactoButtonNav" href="#contacto" class="">Contacto</a></li>
-                    <li><a id="politica" href="/politica-privacidad" class="">Política de Privacidad</a></li>
+                    <li><a id="tenerWebButtonNav" href="websafor.com/#tener-web" class="">La importancia de una web</a></li>
+                    <li><a id="sobreNosotrosButtonNav" href="websafor.com/#sobre-nosotros" class="">Sobre nosotros</a></li>
+                    <li><a id="portfolioButtonNav" href="websafor.com/#portfolio" class="">Portfolio</a></li>
+                    <li><a id="preciosButtonNav" href="websafor.com/#precios" class="">Precios</a></li>
+                    <li><a id="procesoButtonNav" href="websafor.com/#proceso" class="">Proceso</a></li>
+                    <li><a id="testimoniosButtonNav" href="websafor.com/#testimonios" class="">Testimonios</a></li>
+                    <li><a id="contactoButtonNav" href="websafor.com/#contacto" class="">Contacto</a></li>
+                    <li><a id="politica" href="websafor.com/politica-privacidad" class="">Política de Privacidad</a></li>
 
                 </ul>
             </div>

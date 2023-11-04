@@ -10,6 +10,10 @@ let designPrice = require('./designPrice.js');
 */
 document.addEventListener("DOMContentLoaded", function() {
 
+    const secondSection = document.getElementById('second-section');
+    const isHomePage = !!secondSection;
+    
+
     let questions = [];
     let totalCategories = 0;
 
@@ -30,39 +34,34 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('popUpBudget').classList.remove('hidden');
     }
 
-    document.querySelector('#openPopUpBudget').addEventListener('click', function(e){
-        e.preventDefault();
-        setQuestions('webDesign');
-    });
+    if (isHomePage) {
+            
+        document.querySelector('#openPopUpBudget').addEventListener('click', function(e){
+            e.preventDefault();
+            setQuestions('webDesign');
+        });
+        
+        document.getElementById('precioLan').addEventListener('click', function(e){
+            e.preventDefault();
+            setQuestions('webDesign');
+        });
+
+        document.getElementById('precioTie').addEventListener('click', function(e){
+            e.preventDefault();
+            setQuestions('webDesign');
+        });
+
+    }
 
     document.querySelector('#budgetSticky').addEventListener('click', function(e){
         e.preventDefault();
         setQuestions('webDesign');
     });
-    
-    document.getElementById('precioLan').addEventListener('click', function(e){
-        e.preventDefault();
-        setQuestions('webDesign');
-    });
-
-    /*document.getElementById('precioSer').addEventListener('click', function(e){
-        e.preventDefault();
-        setQuestions('webDesign');
-    });*/
-
-    document.getElementById('precioTie').addEventListener('click', function(e){
-        e.preventDefault();
-        setQuestions('webDesign');
-    });
-/*
-    document.getElementById('precioExt').addEventListener('click', function(e){
-        e.preventDefault();
-        setQuestions('webDesign');
-    });*/
 
     document.getElementById('closePopUp').addEventListener('click', function(e){
         document.getElementById('popUpBudget').classList.add('hidden');
     });
+
 
     let answers = {};
     let currentCategory = 1;
