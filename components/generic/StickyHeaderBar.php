@@ -71,25 +71,30 @@ document.addEventListener('DOMContentLoaded', function() {
     const tenerWebSection = document.getElementById('tener-web');
     const navMenu = document.getElementById('navMenu');
     const toggleButton = document.getElementById('toggleButton');
+    
+    const isHomePage = !!secondSection;
+    if (isHomePage) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY >= secondSection.offsetTop) {
+                stickyHeader.style.display = 'flex';
+            } else {
+                stickyHeader.style.display = 'none';
+            }
+        });
 
-    window.addEventListener('scroll', function() {
-        if (window.scrollY >= secondSection.offsetTop) {
-            stickyHeader.style.display = 'flex';
-        } else {
-            stickyHeader.style.display = 'none';
-        }
-    });
+        window.addEventListener('scroll', function() {
+            // Determina la posición de activación usando la altura del viewport
+            const activationPoint = tenerWebSection.offsetTop - window.innerHeight + 100;
 
-    window.addEventListener('scroll', function() {
-        // Determina la posición de activación usando la altura del viewport
-        const activationPoint = tenerWebSection.offsetTop - window.innerHeight + 100;
-
-        if (window.scrollY >= activationPoint) {
-            stickyContact.style.display = 'flex';
-        } else {
-            stickyContact.style.display = 'none';
-        }
-    });
+            if (window.scrollY >= activationPoint) {
+                stickyContact.style.display = 'flex';
+            } else {
+                stickyContact.style.display = 'none';
+            }
+        });
+    }else{
+        stickyHeader.style.display = 'flex';
+    }
 
     toggleButton.addEventListener('click', function() {
         if (navMenu.style.maxHeight === "0px" || navMenu.style.maxHeight === "") {
