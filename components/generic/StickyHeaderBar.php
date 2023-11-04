@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }else{
         stickyHeader.style.display = 'flex';
+        stickyContact.style.display = 'flex';
     }
 
     toggleButton.addEventListener('click', function() {
