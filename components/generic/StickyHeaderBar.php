@@ -121,7 +121,38 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    
     // Cerrar el menú automáticamente después de hacer clic en un enlace y ajustar la posición de desplazamiento
+    const navLinks = document.querySelectorAll('#navMenu a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+        const hrefAttribute = this.getAttribute('href');
+        const id = hrefAttribute.split('#').pop(); // Extrae solo el identificador después del '#'
+
+        if (document.getElementById(id)) { // Si el elemento existe en la página actual
+            event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+
+            // Calcular la posición de desplazamiento ajustada
+            const targetElement = document.getElementById(id);
+            const offset = 10; // Ajusta este valor según tus necesidades
+            const adjustedScrollPosition = targetElement.offsetTop - offset;
+
+            // Desplazarse a la posición ajustada
+            window.scrollTo({
+            top: adjustedScrollPosition,
+            behavior: 'smooth'
+            });
+
+            // Cerrar el menú
+            navMenu.style.opacity = "0";
+            navMenu.style.maxHeight = "0";  // Restablecer la altura máxima a "0px"
+            toggleButton.textContent = '+';
+        } else { // Si no, redirige a la página de inicio y añade el anclaje en la URL
+            window.location.href = 'https://www.websafor.com/' + '#' + id;
+        }
+        });
+    });
+    /*
     const navLinks = document.querySelectorAll('#navMenu a');
     navLinks.forEach(link => {
         link.addEventListener('click', function(event) {
@@ -148,6 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
             toggleButton.textContent = '+';
         });
     });
+    */
 
 });
 
