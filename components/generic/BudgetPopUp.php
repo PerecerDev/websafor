@@ -6,7 +6,7 @@ defined('ABSPATH') OR die;
 
 <section id="popUpBudget" class="hidden grid place-items-center fixed z-40 top-0 left-0 right-0 !mt-0 w-full h-screen bg-white overflow-y-auto">    
     <div id="closePopUp" class="absolute top-4 right-4 text-right rounded-xl text-lg text-teal-900 cursor-pointer hover:bg-gray-200 p-2 z-50">X</div>
-    <div id="popUpcontent" class="text-center p-8">
+    <div id="popUpcontent" class="container w-full lg:!w-3/4 text-center p-8">
         <!-- Pantalla de presentación -->
         <div id="introScreen">
             <h3 class="text-3xl font-serif font-bold mb-8">Estas son algunas preguntas para poder darte un presupuesto detallado</h3>

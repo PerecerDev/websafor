@@ -79,13 +79,13 @@ document.addEventListener("DOMContentLoaded", function() {
         currentInputs.forEach(input => {
             if (input.type === "text" || input.type === "select-one" || input.type === "radio") {
                 if (input.checked || input.type !== "radio") {  // Asegurarse de que el radio esté seleccionado
-                    answers[input.name] = input.value;
-                }
+                    answers[input.name] = input.label;
+                } 
             } else if (input.type === "checkbox" && input.checked) {
                 if (!answers[input.name]) {
                     answers[input.name] = [];
                 }
-                answers[input.name].push(input.value);
+                answers[input.name].push(input.label);
             }
         });
 
@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         const input = document.createElement('input');
                         input.type = item.type;
                         input.name = item.name;
-                        input.value = option.value || option.label;
+                        input.value = option.label || option.label;
                         input.id = `${item.name}_${option.label}`; // Añadir un ID único para cada input
     
                         if (option.checked) { 
