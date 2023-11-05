@@ -9,6 +9,7 @@ defined('ABSPATH') OR die;
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Más clientes con tu propia web</title>
 		<?php wp_head(); ?>
 
 
