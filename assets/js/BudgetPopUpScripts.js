@@ -1,19 +1,7 @@
-
-/*import {webPrice} from "./webPrice.js";
-import {contentPrice} from "./contentPrice.js";
-import {designPrice} from "./designPrice.js";
-
-
-let webPrice = require('./webPrice.js');
-let contentPrice = require('./contentPrice.js');
-let designPrice = require('./designPrice.js');
-*/
 document.addEventListener("DOMContentLoaded", function() {
 
     const secondSection = document.getElementById('second-section');
     const isHomePage = !!secondSection;
-    
-
     let questions = [];
     let totalCategories = 0;
 
@@ -62,7 +50,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('popUpBudget').classList.add('hidden');
     });
 
-
     let answers = {};
     let currentCategory = 1;
 
@@ -79,13 +66,14 @@ document.addEventListener("DOMContentLoaded", function() {
         currentInputs.forEach(input => {
             if (input.type === "text" || input.type === "select-one" || input.type === "radio") {
                 if (input.checked || input.type !== "radio") {  // Asegurarse de que el radio esté seleccionado
-                    answers[input.name] = input.label;
+                    //answers[input.name] = input.value;
+                    answers[input.name] = input.value;
                 } 
             } else if (input.type === "checkbox" && input.checked) {
                 if (!answers[input.name]) {
                     answers[input.name] = [];
                 }
-                answers[input.name].push(input.label);
+                answers[input.name].push(input.value);
             }
         });
 
@@ -109,18 +97,18 @@ document.addEventListener("DOMContentLoaded", function() {
             let summarList = '';
             for (let key in answers) {
                 if (answers[key]) {  // Asegurarse de que la respuesta tiene valor
-                //if (answers[key] && answers[key].length > 0) {  // Asegurarse de que la respuesta tiene valor
-
-                    let questionLabel = findQuestionLabelByKey(key);
+                    let { questionLabel, optionLabels } = findQuestionLabelByKey(key);
                     answerList += `<div class="mb-4">`;
                     answerList += `<p>${questionLabel}:</p>`;
                     summarList += `· ${questionLabel} \r\n`;
                     if (Array.isArray(answers[key])) {
-                        answerList += `<p class="font-bold ml-4">${answers[key].join(', ')}</p>`;
-                        summarList += `- ${answers[key].join(', ')} \r\n\r\n`;
+                        // Usar optionLabels, que ahora contiene los labels en lugar de los values
+                        answerList += `<p class="font-bold ml-4">${optionLabels.join(', ')}</p>`;
+                        summarList += `- ${optionLabels.join(', ')} \r\n\r\n`;
                     } else {
-                        answerList += `<p class="font-bold ml-4">${answers[key]}</p>`;
-                        summarList += `- ${answers[key]} \r\n\r\n`;
+                        // Usar optionLabels que debería tener un solo label en este caso
+                        answerList += `<p class="font-bold ml-4">${optionLabels[0] || answers[key]}</p>`;
+                        summarList += `- ${optionLabels[0] || answers[key]} \r\n\r\n`;
                     }
                     answerList += `</div>`;
                 }
@@ -184,7 +172,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`);
             });
 
-
         }
     });
 
@@ -201,47 +188,33 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function findQuestionLabelByKey(key) {
-        for (let category of questions) {
-            for (let item of category.items) {
-                if (item.name === key) {
-                    return item.label;
-                }
-            }
-        }
-        return key;  // Devuelve la clave si no se encuentra la etiqueta de la pregunta
-    }
-/*
-    function calculatePrice(answers) {
-        let price = 0;
+        let questionLabel, optionLabels = [];
     
+        // Encontrar la pregunta correspondiente
         questions.forEach(question => {
             question.items.forEach(item => {
-                if (item.type === "select" || item.type === "radio") {
-                    let selectedOption = item.options.find(option => option.label === answers[item.name]);
-                    if (selectedOption) {
-                        price += selectedOption.price;
-                    }
-                } else if (item.type === "checkbox" && answers[item.name]) {
-                    answers[item.name].forEach(answerOption => {
-                        let selectedOption = item.options.find(option => option.label === answerOption);
-                        if (selectedOption) {
-                            price += selectedOption.price;
-                        }
-                    });
-                } else if (item.type === "text" && answers[item.name]) {
-                    let selectedOption = item.options.find(option => option.label === answers[item.name]);
-                    if (selectedOption) {
-                        price += selectedOption.price;
+                if (item.name === key) {
+                    questionLabel = item.label; // Label de la pregunta
+    
+                    // Si la pregunta tiene opciones, encontrar el label de la opción
+                    if (item.options && item.options.length) {
+                        optionLabels = item.options.filter(option => {
+                            if (Array.isArray(answers[key])) {
+                                // Si es un array, es decir, un checkbox con varias opciones seleccionadas
+                                return answers[key].includes(option.value);
+                            } else {
+                                // Si no es un array, es decir, un select o un radio
+                                return option.value === answers[key];
+                            }
+                        }).map(option => option.label); // Guardar los labels en lugar de los values
                     }
                 }
             });
         });
     
-        return price;
+        // Devolver tanto el label de la pregunta como el/los label(s) de la opción(es) seleccionada(s)
+        return { questionLabel, optionLabels };
     }
-    
-    */
-    
     
 
     function calculatePrice(answers) {
@@ -267,7 +240,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
         return price;
     }
-    
 
     let lastClickedIcon = null;  // Variable para rastrear el último ícono clickeado
 
@@ -319,7 +291,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Generador de preguntas
-
     function generateQuestions() {
         const form = document.getElementById('questionForm');
         form.innerHTML = ''; 
@@ -364,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         const input = document.createElement('input');
                         input.type = item.type;
                         input.name = item.name;
-                        input.value = option.label || option.label;
+                        input.value = option.value || option.label;
                         input.id = `${item.name}_${option.label}`; // Añadir un ID único para cada input
     
                         if (option.checked) { 
@@ -416,11 +387,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
     
-
     // Llamar a la función al cargar la página
     document.addEventListener('DOMContentLoaded', generateQuestions);
-
-
 
 });
 
