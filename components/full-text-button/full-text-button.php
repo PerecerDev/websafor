@@ -4,8 +4,8 @@ defined('ABSPATH') OR die;
 
 ?>
 
-<section id="third-section" data-theme="green" class="w-full !mt-0 pb-12 pt-48 px-12 text-right text-white bg-teal-950 lg:h-[120vh]">
-    <aside class="container mx-auto lg:w-3/4 w-full lg:!pt-20">
+<section id="third-section" data-theme="green" class="w-full block !mt-0 pb-12 pt-48 px-12 text-right text-white bg-teal-950">
+    <aside class="container mx-auto w-full lg:!w-3/4 lg:!pt-20">
         <h1 class="w-full font-serif text-6xl lg:!text-7xl text-right font-bold mb-8 lg:pl-60">¿En cuanto tiempo?</h1>
         <span class="w-full font-sans text-4xl text-right font-thin">Entre 2 y 4 semanas</span>
         <!-- Botón CTA presupuesto -->

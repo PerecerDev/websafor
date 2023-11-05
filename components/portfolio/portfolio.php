@@ -5,9 +5,9 @@ defined('ABSPATH') OR die;
 ?>
 
 <section id="portfolio" data-theme="orange" class="px-10 w-full py-16 lg:!py-32 bg-orange-200">
-    <div class="container mx-auto text-center w-full lg:w-3/4">
+    <div class="container mx-auto text-center w-full lg:!w-3/4">
       <h2 class="text-5xl lg:!text-6xl font-bold font-serif mb-14">Algunos de nuestros últimos trabajos</h2>
-      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <ul class="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-3 gap-8">
         <li class="list-none bg-white shadow-md transition hover:shadow-lg">
             <img src=<?php echo RTEMU . "/assets/img/ultimos-trabajos/liralashes.png"; ?> alt="Lira Lashes" class="w-full h-48 object-cover mb-4" />
             <aside class="px-8 pb-6 pt-4">

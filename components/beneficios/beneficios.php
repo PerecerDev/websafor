@@ -4,7 +4,7 @@ defined('ABSPATH') OR die;
 
 ?>
 <section id="tener-web" data-theme="black" class="bg-black text-gray-200 px-10 py-16 lg:!py-32 text-center">
-    <div class="container mx-auto w-full lg:w-3/4">
+    <div class="container mx-auto w-full lg:!w-3/4">
         <h1 class="text-4xl md:!text-5xl lg:!text-6xl font-bold font-serif mb-20 lg:!mb-20">La importancia de tener una buena web</h1>
         <ul class="grid md:grid-cols-2 gap-x-8 gap-y-8 text-green-300 mb-8">
             <li class="list-none rounded-md bg-green-950/50 text-center font-sans ring-1 ring-green-300 py-7 px-8 mb-8">
