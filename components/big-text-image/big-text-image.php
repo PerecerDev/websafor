@@ -14,7 +14,7 @@ $img = RTEMU . '/assets/img/componentes/pensando2.png';
 
     </aside>
     <aside class="container w-full relative">
-        <div class="overflow-hidden absolute z-20 !-top-21 lg:!-top-[21rem] xl:!-top-[22rem] 2xl:!-top-[22rem] lg:left-32 xl:left-60">
+        <div class="overflow-hidden absolute z-20 !-top-[21rem] lg:!-top-[21rem] xl:!-top-[22rem] 2xl:!-top-[22rem] lg:left-32 xl:left-60">
             <img src=<?php echo $img; ?> alt="¿Cuánto cuesta una web?" class=" w-80 lg:!w-[22rem] xl:!w-[24rem] 2xl:!w-[30rem] h-auto block"/>
         </div>
     </aside>
