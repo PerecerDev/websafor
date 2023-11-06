@@ -6,7 +6,7 @@ $img = RTEMU . '/assets/img/componentes/pensando2.png';
 
 ?>
 
-<section id="second-section" data-theme="orange" class="w-full relative block bg-orange-200 md:h-[75vh]">
+<section id="second-section" data-theme="orange" class="w-full relative block bg-orange-200">
     <aside class="container mx-auto w-full md:!w-3/4 relative z-20 p-12 pt-32 xl:!pt-36 text-right text-teal-900">
         
         <h2 class="w-full font-serif text-6xl md:pl-40 xl:!text-7xl font-bold mb-10 text-white">¿Cuánto cuesta una web?</h2>
