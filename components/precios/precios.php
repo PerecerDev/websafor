@@ -135,7 +135,7 @@ defined('ABSPATH') OR die;
                     <span class="mr-2 text-4xl font-extrabold">99 €</span>
                     <span class="">/mes</span>
                 </div>
-                <span class="block mb-8">IVA incluido</span>
+                <span class="block mb-8">Sin permanencia</span>
 
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">* Soporte técnico</li>
@@ -156,7 +156,7 @@ defined('ABSPATH') OR die;
                     <span class="mr-2 text-4xl font-extrabold"> €399</span>
                     <span class="">/mes</span>
                 </div>
-                <span class="block mb-8">IVA incluido</span>
+                <span class="block mb-8">Sin permanencia</span>
 
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">* Todo lo incluido en el Pack Crecimiento</li>
