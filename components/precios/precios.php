@@ -12,7 +12,7 @@ defined('ABSPATH') OR die;
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0 font-thin">
             <!-- Precio para Landing Page -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-200 rounded-md shadow xl:p-8">
-                <h3 class="mb-6 text-2xl font-serif font-bold">Presentación</h3>
+                <h3 class="mb-6 text-2xl font-serif font-bold">Web de Presentación</h3>
                 <p class="font-thin mb-4">Tu web es tu escaparate con el que atraer nuevos clientes con los servicios que ofreces.</p>
                 <p class="mb-4 text-lg font-sans font-normal"><em>* Ideal para la mayoría de empresas</em></p>
                 <div class="flex justify-center items-baseline mt-8">
@@ -49,7 +49,7 @@ defined('ABSPATH') OR die;
 
             <!-- Precio para E-commerce -->
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-50 rounded-md shadow xl:p-8">
-                <h3 class="mb-6 text-2xl font-serif font-bold">Tienda online</h3>
+                <h3 class="mb-6 text-2xl font-serif font-bold">Web para Tienda online</h3>
                 <p class="font-thin mb-4">Podrás mostrar tus productos y venderlos a través de tu web en cualquier momento del día.</p>
                 <p class="mb-4 text-lg font-sans font-normal"><em>* Perfecta para vender tus productos</em></p>
                 <div class="flex justify-center items-baseline mt-8">
@@ -85,7 +85,7 @@ defined('ABSPATH') OR die;
             </div>
 
             <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-orange-50 rounded-md shadow xl:p-8">
-                <h3 class="mb-6 text-2xl font-serif font-bold">Personalizado</h3>
+                <h3 class="mb-6 text-2xl font-serif font-bold">Web Personalizada</h3>
                 <p class="font-thin mb-4">Desarrollamos tu web según tus necesidades y visiones específicas.</p>
                 <p class="mb-4 text-lg font-sans font-normal"><em>* Pensado para requerimientos especiales</em></p>
                 <div class="flex justify-center items-baseline mt-8">
@@ -139,19 +139,19 @@ defined('ABSPATH') OR die;
 
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">* Soporte técnico</li>
-                    <li class="flex items-center space-x-3">* Mantenimiento</li>
+<!--                     <li class="flex items-center space-x-3">* Mantenimiento</li>
                     <li class="flex items-center space-x-3">* Actualización de los sistemas</li>
-                    <li class="flex items-center space-x-3">* Tu web en lo más alto de Google</li>
+ -->                    <li class="flex items-center space-x-3">* Tu web en lo más alto de Google</li>
                     <li class="flex items-center space-x-3">* Visitas en tu web desde el primer día</li>
                 </ul>
                 
-                <a id="precioTie" href="#" class="text-teal-950 bg-orange-200 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">¡Quiero esta tienda!</a>
+                <a id="precioCre" href="#" class="text-teal-950 bg-orange-200 hover:bg-orange-300 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Quiero el Pack Crecimiento</a>
             </div>
 
-            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-gray-300 bg-teal-200 rounded-md shadow xl:p-8">
+            <div class="flex flex-col p-6 pt-10 mx-auto max-w-lg text-center text-teal-950 bg-gray-200 rounded-md shadow xl:p-8">
                 <h3 class="mb-6 text-2xl font-serif font-bold">Pack Pro</h3>
-                <p class="font-thin mb-4">Este servicio es una inversión esencial para cualquier negocio serio que quiera mantener su sitio web en las mejores condiciones y su web sea vista por el mayor número de posibles clientes</p>
-                <p class="mb-4 text-lg font-sans font-normal"><em>Rendimiento óptimo y visibilidad top</em></p>
+                <p class="font-thin mb-4">La inversión ideal para aquellos que desean maximizar el impacto de su presencia online y convertir su Web y Redes Sociales en verdaderas herramientas de crecimiento empresarial</p>
+                <p class="mb-4 text-lg font-sans font-normal"><em>Consigue reconocimiento para tu empresa</em></p>
                 <div class="flex justify-center items-baseline mt-8">
                     <span class="mr-2 text-4xl font-extrabold"> €399</span>
                     <span class="">/mes</span>
@@ -164,7 +164,7 @@ defined('ABSPATH') OR die;
                     <li class="flex items-center space-x-3">* 2 Posts en 2 de tus Redes Sociales a la semana</li>
                 </ul>
                 
-                <a id="precioTie" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">¡Quiero esta tienda!</a>
+                <a id="precioPro" href="#" class="text-white bg-teal-900 hover:bg-teal-950 font-thin rounded-lg text-lg px-5 py-2.5 text-center">Quiero el Pack Pro</a>
             </div>
 
         </div>

@@ -2534,6 +2534,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
 }
+.hover\:bg-orange-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+}
 .hover\:bg-teal-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 94 89 / var(--tw-bg-opacity));
@@ -2598,10 +2602,6 @@ video {
 
   .md\:\!inline-block {
     display: inline-block !important;
-  }
-
-  .md\:h-\[75vh\] {
-    height: 75vh;
   }
 
   .md\:\!w-2\/3 {

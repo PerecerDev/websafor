@@ -39,6 +39,16 @@ document.addEventListener("DOMContentLoaded", function() {
             setQuestions('webDesign');
         });
 
+        document.getElementById('precioCre').addEventListener('click', function(e){
+            e.preventDefault();
+            setQuestions('webDesign');
+        });
+
+        document.getElementById('precioPro').addEventListener('click', function(e){
+            e.preventDefault();
+            setQuestions('webDesign');
+        });
+
     }
 
     document.querySelector('#budgetSticky').addEventListener('click', function(e){
