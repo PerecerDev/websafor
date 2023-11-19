@@ -146,6 +146,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Cerrar el menú
             navMenu.style.opacity = "0";
             navMenu.style.maxHeight = "0";  // Restablecer la altura máxima a "0px"
+
+            // Remueve margen al cerrar el menú
+            navMenu.classList.add('mt-0', 'mb-0');
+            navMenu.classList.remove('mt-2', 'mb-8');
+            
             toggleButton.textContent = '+';
         } else { // Si no, redirige a la página de inicio y añade el anclaje en la URL
             window.location.href = 'https://www.websafor.com/' + '#' + id;
