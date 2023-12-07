@@ -12,6 +12,15 @@ defined('ABSPATH') OR die;
 		<title>Más clientes con tu propia web</title>
 		<?php wp_head(); ?>
 
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4KGJ3YFNN"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-Y4KGJ3YFNN');
+		</script>
 
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-GPRNVPPKWH"></script>
